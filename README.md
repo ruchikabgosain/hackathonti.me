@@ -68,9 +68,9 @@ If you would like to update resources on Hackathonti.Me, please:
 If you are not sure how to complete the above steps, GitHub's [Fork a Repo guide](https://help.github.com/en/articles/fork-a-repo#fork-an-example-repository) is a good place to start.
 
 ## `Setup Guide` Let's get to work.
-- Make sure your locam machine has Python3.6+ pre-installed.
-- Start with installing `virtualenv` and creating a virtualenv for this project. 
-- Clone this repo and then install the other requirements. 
+- Make sure your local machine has Python3.6+ pre-installed.
+- Start with installing `virtualenv` and creating a `virtualenv` for this project. 
+- Clone this repo and install the other requirements. 
 - Set some enviornment variables and then migrate the models. Tada! 🙌
 
 ```
