@@ -27,14 +27,6 @@
   <a href="https://github.com/nk521/hackathonti.me/blob/master/README.md#contribution-guide-i-want-to-get-started">
     Contributing
   </a>
-  <span> | </span>
-  <a href="https://this-will-be-a-link.com">
-    Chat
-  </a>
-  <span> | </span>
-  <a href="https://this-will-be-a-link.com">
-    Code of Conduct
-  </a>
 </h3>
 
 <p align="center">
