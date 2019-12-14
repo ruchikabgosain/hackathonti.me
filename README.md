@@ -53,7 +53,7 @@ This platform caters to hackathon hosts and participants alike.
 
 ## `Work in Progress` Still brainstorming these ones!
 - Public Voting for hackathons.
-- Is Team Blog is a good idea? Where teams can write about their projects to maintain a project archive. The information for the team like [ team members, hackathons went and hackathons attending ] could be more concisely arranged on the page.
+- Is Team Blog is a good idea? Where teams can write about their projects to maintain a project archive. The information for the team like [ team members, hackathons went and hackathons attending ] could be more concisely arranged on the page. (If you wish to continue on this idea then there's already models/forms/views for this but commented out. Look in hackathontime_users directory.)
 
 ## `Screenshots` How do we look like?
 (Will add soon.)
