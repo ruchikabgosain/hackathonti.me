@@ -3,28 +3,18 @@
 <h3 align="center">Get.Set.[ Host || Participate].Flaunt!</h3>
 
 <p align="center"> A <code>website</code> where you can host your hackathon or register for one! Participate to find your
-  hackathon rankings. Earn loyalty badges. Aaaaaand help us improve!
+  hackathon rankings. Aaaaaand help us improve!
 </p>
 
 <p align="center">
-  <!-- NPM version -->
-  <img src="https://img.shields.io/npm/v/npm?style=flat-square"
-       alt="NPM version" />
-  <!-- issues, PR open -->
   <img src="https://img.shields.io/github/issues/nk521/hackathonti.me?style=flat-square&color=brightgreen&logo=github"
        alt="Github issues" />
-  <!--build status -->
   <a href="https://hackathonti-me.herokuapp.com/">
     <img src="https://img.shields.io/badge/Heroku-test%20build-red?style=flat-square&logo=heroku"
          alt="Test build" />
   </a>
-  <!--code coverage/ size -->
   <img src="https://img.shields.io/github/languages/code-size/nk521/hackathonti.me?style=flat-square&color=orange"
        alt="Code size" />
-  <!--social links -->
-  <!--platform and version umber for dependencies -->
-  <!--version number of website -->
-  <!--license -->
   <img src="https://img.shields.io/github/license/nk521/hackathonti.me?style=flat-square&color=blueviolet"
        alt="License" />
 </p> 
@@ -34,7 +24,7 @@
     Website
   </a>
   <span> | </span>
-  <a href="https://github.com/ruchikabgosain/hackathonti.me/blob/master/README.md#contribution-guide-i-want-to-get-started">
+  <a href="https://github.com/nk521/hackathonti.me/blob/master/README.md#contribution-guide-i-want-to-get-started">
     Contributing
   </a>
   <span> | </span>
