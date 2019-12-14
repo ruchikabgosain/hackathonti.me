@@ -1,4 +1,4 @@
-<h1 align="center">Hackathonti.Me</h1>
+<h1 align="center">HackathonTi.Me</h1>
 
 <h3 align="center">Get.Set.[ Host || Participate].Flaunt!</h3>
 
@@ -9,10 +9,6 @@
 <p align="center">
   <img src="https://img.shields.io/github/issues/nk521/hackathonti.me?style=flat-square&color=brightgreen&logo=github"
        alt="Github issues" />
-  <a href="https://hackathonti-me.herokuapp.com/">
-    <img src="https://img.shields.io/badge/Heroku-test%20build-red?style=flat-square&logo=heroku"
-         alt="Test build" />
-  </a>
   <img src="https://img.shields.io/github/languages/code-size/nk521/hackathonti.me?style=flat-square&color=orange"
        alt="Code size" />
   <img src="https://img.shields.io/github/license/nk521/hackathonti.me?style=flat-square&color=blueviolet"
@@ -37,26 +33,26 @@
 
 ## `Idea` What are we thinking?
 This platform caters to hackathon hosts and participants alike. 
-- The home page shows ongoing and future hackathons
+- The home page shows ongoing and future hackathons.
 - A host can mail us or fill a form to register a hackathon with required details. 
 - Participants register at [Hackathonti.me](www.hackathonti.me) for the same hackathon or find a past event in the archive.
 - Two hours after the hackathon ends, public voting takes place and registered users are able to vote for 24hrs. These factors include but are not limited to reliability, environment, growth potential, management.
 - This decides the _points_, suppose average rating of hackathon is `x` (float). Consequently, the winning team scores `x` points, first runner up scores `x/2` points and second runner up will score `x/4`. 
-- After every 4 months, ranks are calculated for these participant teams and individual hackathons. These ranks are your flaunt-o-meter!
+- After every 4 months, ranks are calculated for these participant teams and individual hackathons. These ranks are your flaunt-o-meter!✨
 
 ## `Work already done` We did this much! 
-- User Interface (UI). Which is kinda ugly right now. Feel free to propose a change to this. 😄
-- Pages for Login/Register into Hackathonti.Me.
-- Logic for Creation (Also, Joining) of teams for hackathons by participants.
+- User Interface (UI). But it feels a little off-handed right now. Feel free to propose a change to this! ⬅️
+- Pages for Login/Register into HackathonTi.Me.
+- Logic for Creation and Joining of teams for hackathons by participants.
 - Logic for Date/Time for hackathons to decide the ongoing, future and past events and move them to archive accordingly.
-- Points for teams and hackathons? This is implemented manually at this moment.
+- Points for teams and hackathons. This is implemented manually at this moment.
 
 ## `Work in Progress` Still brainstorming these ones!
 - Public Voting for hackathons.
-- Is Team Blog is a good idea? Where teams can write about their projects to maintain a project archive. The information for the team like [ team members, hackathons went and hackathons attending ] could be more concisely arranged on the page. (If you wish to continue on this idea then there's already models/forms/views for this but commented out. Look in hackathontime_users directory.)
+- Is Team Blog is a good idea? Essentially, this will be a place where teams can write about their projects to maintain a project archive. The information for the team like [ team members, hackathons went and hackathons attending ] could, hence, be more concisely arranged on the page. [ If you would like to work on this idea, find models/forms/views in `hackathontime_users` directory. They have purposely been commented out. ] 
 
 ## `Screenshots` How do we look like?
-(Will add soon.)
+(Will be added super soon)
 
 ## `Contribution Guide` I want to get started. 
 If you would like to update resources on Hackathonti.Me, please:
@@ -72,8 +68,12 @@ If you would like to update resources on Hackathonti.Me, please:
 If you are not sure how to complete the above steps, GitHub's [Fork a Repo guide](https://help.github.com/en/articles/fork-a-repo#fork-an-example-repository) is a good place to start.
 
 ## `Setup Guide` Let's get to work.
-Make sure you've python3.6+. Start with installing virtualenv and then creating a virtualenv for this project. Then clone this repo and then install the requirements. After that all you gotta do is set some enviornment variables and then migrate the models.
+- Make sure your locam machine has Python3.6+ pre-installed.
+- Start with installing `virtualenv` and creating a virtualenv for this project. 
+- Clone this repo and then install the other requirements. 
+- Set some enviornment variables and then migrate the models. Tada! 🙌
 
+```
     # install and make a virtualenv
     python3 -m pip install virtualenv
     python3 -m virtualenv <name>
@@ -93,11 +93,12 @@ Make sure you've python3.6+. Start with installing virtualenv and then creating 
     # create superuser and run server
     python manage.py createsuperuser
     python manage.py runserver
+```
 
-If you get any errors regarding database after accessing the website on localhost then try to migrate the models again.
+If you encounter any errors regarding database after accessing the website on localhost, try to migrate the models again.
 
 ## `Future Plans` Wanting more!
-You tell this. What do you want to add? Make an issue for feature request. 😀
+You tell this. What feature would you like to propose? Go ahead and open an issue for feature request. 😀🧙
 
 ### Let us know how we did.
 Drop in a mail at 📩 admin@hackathonti.me with your suggestions.
